@@ -1,0 +1,7 @@
+export { default as spotify } from "./spotify.svg"
+export { default as dell } from "./dell.svg"
+export { default as cisco } from "./cisco.svg"
+export { default as disney } from "./disney.svg"
+export { default as deezer } from "./deezer.svg"
+export { default as verizon } from "./verizon.svg"
+export { default as texas } from "./texas.svg"
