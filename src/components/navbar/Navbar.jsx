@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       {/* Large Screen Navbar */}
-      <nav className="bg-yellow-600 hidden sm:block shadow-md rounded-b-md md:shadow-2xl shadow-yellow-600">
+      <nav className="bg-yellow-600 hidden sm:block shadow-md rounded-b-md md:rounded-none md:shadow-none shadow-yellow-600">
         <a
           href="/"
           className="block md:hidden w-full hover:opacity-75 transition-opacity cursor-pointer"
@@ -62,11 +62,7 @@ const Navbar = () => {
 
           <BiMenu onClick={onclick} className="cursor-pointer text-4xl" />
         </div>
-        <div
-          className={`${
-            toggle ? "active" : ""
-          } navbar-links bg-yellow-600 container mx-auto`}
-        >
+        <div className={`${toggle ? "active" : ""} navbar-links bg-yellow-600`}>
           <BiX onClick={onclick} className="ml-auto cursor-pointer text-4xl" />
           <ul className=" flex flex-col w-full justify-between relative items-center gap-6 font-semibold pt-24">
             <li>
