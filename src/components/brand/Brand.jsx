@@ -4,7 +4,7 @@ import Dots from "../../assets/images/dots.svg";
 
 const Brand = () => {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden mb-20">
       <img
         src={Dots}
         alt="dots"
@@ -24,7 +24,7 @@ const Brand = () => {
             <FaDownload /> <span>Download The App</span>
           </a>
         </button>
-        <div className="flex my-32 flex-col sm:flex-row gap-y-14">
+        <div className="flex mt-32 flex-col sm:flex-row gap-y-14">
           <div className="grid gap-4 justify-items-center text-center md:flex-1 ">
             <div className="rounded-full border-8 border-yellow-600 p-4">
               <FaKey size={30} />
