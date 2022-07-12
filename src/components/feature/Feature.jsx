@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <section>
       <div className="flex flex-col-reverse items-center justify-center md:flex-row">
-        <div class="flex flex-wrap flex-col items-start justify-center gap-6 px-6">
+        <div className="flex flex-wrap flex-col items-start justify-center gap-6 px-6">
           <div class="flex flex-wrap flex-col items-start gap-2">
             <h2 class="text-4xl font-bold capitalize">Relax, You're home!</h2>
             <p class="max-w-md">
