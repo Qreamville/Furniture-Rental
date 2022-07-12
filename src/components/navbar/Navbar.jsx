@@ -63,7 +63,10 @@ const Navbar = () => {
           <BiMenu onClick={onclick} className="cursor-pointer text-4xl" />
         </div>
         <div className={`${toggle ? "active" : ""} navbar-links bg-yellow-600`}>
-          <BiX onClick={onclick} className="ml-auto cursor-pointer text-4xl" />
+          <BiX
+            onClick={onclick}
+            className="ml-auto cursor-pointer text-4xl mr-4 mt-2"
+          />
           <ul className=" flex flex-col w-full justify-between relative items-center gap-6 font-semibold pt-24">
             <li>
               <a href="#home">HOME</a>
