@@ -24,53 +24,53 @@ const Contact = () => {
         </div>
         <form className="relative border-4 border-neutral-700 p-6 rounded-lg grid gap-8  md:max-w-lg my-4 md:my-12 lg:my-16  w-full">
           <h2 className="font-bold text-3xl">Contact Us</h2>
-          <div class="relative">
+          <div className="relative">
             <input
               type="text"
-              class="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent"
+              className="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent"
             />
             <label
               placeholder="your name"
-              class="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-4 left-2  -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2
+              className="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-4 left-2  -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2
               backdrop:transition-all peer-placeholder-shown:text-black"
             >
               Enter name
             </label>
           </div>
-          <div class="relative">
+          <div className="relative">
             <input
               type="email"
-              class="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent"
+              className="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent"
             />
             <label
               placeholder="your name"
-              class="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-4 left-2  -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2
+              className="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-4 left-2  -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2
               transition-all peer-placeholder-shown:text-black"
             >
               Enter Mail
             </label>
           </div>
-          <div class="relative">
+          <div className="relative">
             <textarea
               name="content"
               id=""
               cols="20"
               rows="5"
-              class="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent resize-none"
+              className="peer w-full border-4 rounded-md border-yellow-600 focus:outline-none placeholder-transparent resize-none"
               placeholder="enter message"
             ></textarea>
             <label
               placeholder="your name"
-              class="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-3 left-2  -translate-y-1/2"
+              className="peer-focus:text-yellow-600 text-black text-sm font-bold uppercase absolute -top-3 left-2  -translate-y-1/2"
             >
               Enter Message
             </label>
           </div>
           <a
-            class="flex py-2 px-6  gap-2 shadow-xl bg-yellow-600 w-max rounded-md font-bold capitalize hover:bg-red-600 hover:text-white text-1xl"
+            className="flex py-2 px-6  gap-2 shadow-xl bg-yellow-600 w-max rounded-md font-bold capitalize hover:bg-red-600 hover:text-white text-1xl"
             href="/"
           >
-            <span class="flex">Sign Up</span>
+            <span className="flex">Sign Up</span>
           </a>
         </form>
       </div>
