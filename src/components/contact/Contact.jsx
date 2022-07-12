@@ -5,7 +5,7 @@ import App from "../../assets/images/app.svg";
 
 const Contact = () => {
   return (
-    <section className="container mx-auto mt-20 ">
+    <section id="contact" className="container mx-auto mt-20 ">
       <div className="flex flex-col md:flex-row items-center justify-between gap-x-10 gap-y-8 relative overflow-hidden">
         <div className="flex flex-col items-center justify-start md:mb-48 w-3/4">
           <img src={Lamp} alt="lamp" />
